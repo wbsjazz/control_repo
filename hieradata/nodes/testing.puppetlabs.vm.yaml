@@ -1,2 +1,3 @@
 ---
 message: "This is the custom data for node testing.puppetlabs.vm"
+whereami: testvmyaml
