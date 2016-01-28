@@ -15,6 +15,6 @@ mod "puppetlabs/vcsrepo"
 mod "saz/resolv_conf"
 mod "zack/r10k"
 
-mod "control_repo",
-  :git => "https://github.com/cvquesty/control_repo.git",
+mod "roles",
+  :git => "https://github.com/cvquesty/roles.git",
   :ref => 'development'
