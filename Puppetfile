@@ -17,8 +17,8 @@ mod "zack/r10k"
 
 mod "roles",
   :git => "https://github.com/cvquesty/roles.git",
-  :ref => 'development'
+  :ref => 'testing'
 
 mod "profiles",
   :git => "https://github.com/cvquesty/profiles.git",
-  :ref => 'development'
+  :ref => 'testing'
