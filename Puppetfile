@@ -14,11 +14,3 @@ mod "puppetlabs/stdlib"
 mod "puppetlabs/vcsrepo"
 mod "saz/resolv_conf"
 mod "zack/r10k"
-
-mod "roles",
-  :git => "https://github.com/cvquesty/roles.git",
-  :ref => 'production'
-
-mod "profiles",
-  :git => "https://github.com/cvquesty/profiles.git",
-  :ref => 'production'
