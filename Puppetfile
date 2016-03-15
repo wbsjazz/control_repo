@@ -15,10 +15,10 @@ mod "puppetlabs/vcsrepo"
 mod "saz/resolv_conf"
 mod "zack/r10k"
 
-mod "profiles"
+mod "profiles",
   :git => 'https://github.com/cvquesty/profiles.git',
   :ref => 'development'
 
-mod "roles"
+mod "roles",
   :git => 'https://github.com/cvquesty/roles.git',
   :ref => 'development'
