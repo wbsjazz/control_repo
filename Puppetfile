@@ -14,3 +14,7 @@ mod "puppetlabs/stdlib"
 mod "puppetlabs/vcsrepo"
 mod "saz/resolv_conf"
 mod "zack/r10k"
+
+mod "pam",
+    :git => 'https://github.com/cvquesty/pam.git',
+    :ref => 'testing'
