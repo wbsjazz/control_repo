@@ -5,6 +5,7 @@ forge "http://forge.puppetlabs.com"
 mod "cvquesty/puppetdev"
 mod "gentoo/portage"
 mod "hunner/hiera"
+mod "puppetlabs/apache"
 mod "puppetlabs/apt"
 mod "puppetlabs/concat"
 mod "puppetlabs/git"
@@ -18,4 +19,8 @@ mod "zack/r10k"
 # Modules NOT on the Forge
 mod 'ssh',
   :git => 'https://github.com/cvquesty/ssh.git',
+  :ref => 'development'
+
+mod 'profiles',
+  :git => 'https://github.com/cvquesty/profiles.git',
   :ref => 'development'
