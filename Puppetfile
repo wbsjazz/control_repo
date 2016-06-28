@@ -2,7 +2,7 @@
 forge "http://forge.puppetlabs.com"
 
 # Modules from the Puppet Forge
-mod "cvquesty/puppetdev"
+mod "wbsjazz/puppetdev"
 mod "gentoo/portage"
 mod "hunner/hiera"
 mod "puppetlabs/apt"
